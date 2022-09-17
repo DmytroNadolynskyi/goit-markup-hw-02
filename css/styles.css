@@ -20,7 +20,7 @@ body {
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
     font-family: roboto, sans-serif;
-    letter-spacing: 0,03em;
+    letter-spacing: -0,030em;
     font-size: 14px;
    
 
@@ -76,7 +76,7 @@ ul {
          font-weight: 500; 
          
           line-height: 1.14;
-         letter-spacing: 0.02;
+         letter-spacing: -0.020em;
          text-decoration: none;
 
 
@@ -88,7 +88,7 @@ ul {
         font-weight: 500;
         
             line-height: 1.14;
-            letter-spacing: 0.02;
+            letter-spacing: -0.020em;
     }
 
     .site-nav .link.current {
@@ -101,7 +101,7 @@ ul {
             font-weight: 500;
             
                 line-height: 1.14;
-                letter-spacing: 0.02;
+                letter-spacing:-0.020em;
     
         }
     
@@ -111,7 +111,7 @@ ul {
             font-weight: 500;
             
             line-height: 1.14;
-            letter-spacing: 0.02;
+            letter-spacing:-0.020em;
         }
 
     /*hero*/
@@ -125,7 +125,7 @@ ul {
          font-size: 44px ;
          line-height: 1.36;
         text-align:center  ;
-        letter-spacing: 0.06;
+        letter-spacing: -0.060em;
         text-transform: uppercase;
     }
         /*button*/
@@ -137,7 +137,7 @@ ul {
             font-weight: 700;
                 font-size: 16px;
                 line-height: 1.9;
-                letter-spacing: 0.06;
+                letter-spacing: -0.060em;
         }
 
     /*Section*/
@@ -257,7 +257,7 @@ ul {
         font-weight: 500;
         font-size: 16;
         line-height: 1.62;
-        letter-spacing: 0.03;
+        letter-spacing: -0.030em;
     }
     .filt:hover,
     .filt:focus{
@@ -267,7 +267,7 @@ ul {
             font-weight: 500;
             font-size: 16;
             line-height: 1.62;
-            letter-spacing: 0.03;
+            letter-spacing: -0.030em;
     }
     
     .port-img{
@@ -279,7 +279,7 @@ ul {
         font-weight: 700;
             font-size: 18px;
             line-height: 2;
-            letter-spacing: 0.06em;
+            letter-spacing: -0.060em;
             
             
 
