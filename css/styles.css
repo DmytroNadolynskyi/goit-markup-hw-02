@@ -1,3 +1,4 @@
+
 :root {
     --primary-text-color: #757575;
     --secondly-text-color: #212121;
@@ -10,13 +11,17 @@
     --white-color: #FFFFFF;
     --under-logo-color: #FFFFFF;
     --secondly-bg-color: #2F303A;
-    --under-contact-color: rgba(255, 255, 255, 0.6)
+    --under-contact-color: rgba(255, 255, 255, 0.6);
+    --third-section-color:#F5F4FA;
 }
 
 
 body {
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+    letter-spacing: -0,030em;
+    line-height: 100%;
 
 
 }
@@ -24,15 +29,11 @@ body {
 ul {
     list-style: none;
 }
+/*header*/
+.header{
+    background-color: var(--white-color) ;
+}
 
-/* цвет заголовков #212121 */
-/* цвет абзаца #757575 */
-/* синие #2196F3 */
-/* белый #FFFFFF */
-/* цвет фона 2,3 секции #F5F5F5 */
-/* цвет фона 4 секции #F5F4FA */
-/* черный лого #000000 */
-/* фон 1 секции#2F303A*/
 
 
 /*logo*/
@@ -40,33 +41,36 @@ ul {
 .half-logo {
     color: var(--half-logo-color);
     font-family: raleway, sans-serif;
+    font-family: 700;
+        font-size: 26px;
+        line-height: 1.19;
+}
 
 
-.logo {
+    .logo {
         color: var(--upper-logo-color);
         font-family: raleway, sans-serif;
+            font-family: 700;
+            font-size: 26px;
+            line-height: 1.19;
+        }
+    
 
-    }
 
     .logo:hover,
     .logo:focus {
         color: var(--hover-color);
     }
 
-    /*comunication navigation*/
-    .communication .contact {
-        color: var(--primary-text-color);
-
-    }
-
-    .communication .contact:hover,
-    .communication .contact:focus {
-        color: var(--hover-color);
-    }
+    
 
     /*site-nav*/
     .site-nav .link {
         color: var(--site-navigation-color);
+         font-style: 500; 
+         font-size: 14px;
+          line-height: 1.14;
+         letter-spacing: -0.020;
 
 
     }
@@ -79,6 +83,20 @@ ul {
     .site-nav .link.current {
         color: var(--text-blue-color);
     }
+        /*comunication navigation*/
+        .communication .contact {
+            color: var(--primary-text-color);
+    
+        }
+    
+        .communication .contact:hover,
+        .communication .contact:focus {
+            color: var(--hover-color);
+            font-style: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: -0.020;
+        }
 
     /*hero*/
     .hero {
@@ -87,16 +105,55 @@ ul {
 
     .hero-title {
         color: var(--white-color);
+         font-style: 900; 
+         font-size: 44px ;
+         line-height: 60px;
+          line-height: 116%;
+        text-align:center  ;
+        letter-spacing: -0.060;
     }
+        /*button*/
+        .button {
+            
+            color: var(--white-color);
+            background-color: var(--text-blue-color);
+            font-style: 700;
+                font-size: 16px;
+                line-height: 1.9;
+                line-height: 160%;
+                letter-spacing: -0.060;
+        }
 
     /*Section*/
     .section-title {
         color: var(--secondly-text-color);
+        font-style: 700;
+            font-size: 36px;
+            line-height: 1.17;
+            text-align: center;
+           
     }
+
 
     /*Features*/
     .feature-list .title {
         color: var(--secondly-text-color);
+        font-style: 700;
+            font-size: 14px;
+            line-height: 1.17;
+            
+            
+    }
+    
+
+    
+    .feature-list .text{
+        
+            font-size: 14px;
+            line-height: 1.7;
+            line-height: 146%;
+           
+
     }
 
     /*whet we do*/
@@ -104,16 +161,25 @@ ul {
 
 
     /*our team*/
+    .third{
+        background-color: var(--third-section-color);
+    }
     .team .name {
         color: var(--secondly-text-color);
+        font-style: 500;
+            font-size: 16px;
+            line-height: 1.2;
+            text-align: center;
+    }
+    .specialization{
+        font-style: 400;
+            font-size: 16px;
+            line-height: 1.2;
+            text-align: center;
+
     }
 
-    /*button*/
-    .button {
-        color: var(--white-color);
-        background-color: var(--text-blue-color);
-    }
-
+    
     /*footer*/
     .footer {
         background-color: var(--secondly-bg-color);
@@ -134,4 +200,5 @@ ul {
     .address .contact:hover,
     .address .contact:focus {
         color: var(--hover-color);
+
     }
