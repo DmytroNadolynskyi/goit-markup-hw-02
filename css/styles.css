@@ -1,0 +1,137 @@
+:root {
+    --primary-text-color: #757575;
+    --secondly-text-color: #212121;
+    --text-blue-color: #2196F3;
+    --primary-background-color: #F5F5F5;
+    --half-logo-color: #2196F3;
+    --upper-logo-color: #000000;
+    --hover-color: #2196F3;
+    --site-navigation-color: #212121;
+    --white-color: #FFFFFF;
+    --under-logo-color: #FFFFFF;
+    --secondly-bg-color: #2F303A;
+    --under-contact-color: rgba(255, 255, 255, 0.6)
+}
+
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+/* цвет заголовков #212121 */
+/* цвет абзаца #757575 */
+/* синие #2196F3 */
+/* белый #FFFFFF */
+/* цвет фона 2,3 секции #F5F5F5 */
+/* цвет фона 4 секции #F5F4FA */
+/* черный лого #000000 */
+/* фон 1 секции#2F303A*/
+
+
+/*logo*/
+
+.half-logo {
+    color: var(--half-logo-color);
+    font-family: raleway, sans-serif;
+
+
+.logo {
+        color: var(--upper-logo-color);
+        font-family: raleway, sans-serif;
+
+    }
+
+    .logo:hover,
+    .logo:focus {
+        color: var(--hover-color);
+    }
+
+    /*comunication navigation*/
+    .communication .contact {
+        color: var(--primary-text-color);
+
+    }
+
+    .communication .contact:hover,
+    .communication .contact:focus {
+        color: var(--hover-color);
+    }
+
+    /*site-nav*/
+    .site-nav .link {
+        color: var(--site-navigation-color);
+
+
+    }
+
+    .site-nav .link:hover,
+    .site-nav .link:focus {
+        color: var(--hover-color);
+    }
+
+    .site-nav .link.current {
+        color: var(--text-blue-color);
+    }
+
+    /*hero*/
+    .hero {
+        background-color: var(--secondly-bg-color);
+    }
+
+    .hero-title {
+        color: var(--white-color);
+    }
+
+    /*Section*/
+    .section-title {
+        color: var(--secondly-text-color);
+    }
+
+    /*Features*/
+    .feature-list .title {
+        color: var(--secondly-text-color);
+    }
+
+    /*whet we do*/
+
+
+
+    /*our team*/
+    .team .name {
+        color: var(--secondly-text-color);
+    }
+
+    /*button*/
+    .button {
+        color: var(--white-color);
+        background-color: var(--text-blue-color);
+    }
+
+    /*footer*/
+    .footer {
+        background-color: var(--secondly-bg-color);
+    }
+
+    .half-white {
+        color: var(--white-color);
+    }
+
+    .address .location {
+        color: var(--white-color);
+    }
+
+    .address .contact {
+        color: var(--under-contact-color);
+    }
+
+    .address .contact:hover,
+    .address .contact:focus {
+        color: var(--hover-color);
+    }
