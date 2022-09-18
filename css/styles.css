@@ -20,8 +20,9 @@ body {
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
     font-family: roboto, sans-serif;
-    letter-spacing: -0,030em;
+    letter-spacing: 0,03em;
     font-size: 14px;
+    
    
 
 
@@ -76,7 +77,7 @@ ul {
          font-weight: 500; 
          
           line-height: 1.14;
-         letter-spacing: -0.020em;
+         letter-spacing: 0.02em;
          text-decoration: none;
 
 
@@ -88,7 +89,7 @@ ul {
         font-weight: 500;
         
             line-height: 1.14;
-            letter-spacing: -0.020em;
+            letter-spacing: 0.02em;
     }
 
     .site-nav .link.current {
@@ -101,7 +102,7 @@ ul {
             font-weight: 500;
             
                 line-height: 1.14;
-                letter-spacing:-0.020em;
+                letter-spacing:0.02em;
     
         }
     
@@ -111,7 +112,7 @@ ul {
             font-weight: 500;
             
             line-height: 1.14;
-            letter-spacing:-0.020em;
+            letter-spacing:0.02em;
         }
 
     /*hero*/
@@ -125,7 +126,7 @@ ul {
          font-size: 44px ;
          line-height: 1.36;
         text-align:center  ;
-        letter-spacing: -0.060em;
+        letter-spacing: 0.06em;
         text-transform: uppercase;
     }
         /*button*/
@@ -137,7 +138,7 @@ ul {
             font-weight: 700;
                 font-size: 16px;
                 line-height: 1.9;
-                letter-spacing: -0.060em;
+                letter-spacing: 0.06em;
         }
 
     /*Section*/
@@ -154,9 +155,10 @@ ul {
     /*Features*/
     
     
-    .feature-list .title {
+     .title {
         color: var(--secondly-text-color);
         font-weight: 700;
+        font-size: 14px;
            
             line-height: 1.17;
             
@@ -201,6 +203,10 @@ ul {
     /*footer*/
     .footer {
         background-color: var(--secondly-bg-color);
+        
+        
+      
+       
     }
     .under-logo{
         font-family: raleway,sans-serif;
@@ -212,10 +218,18 @@ ul {
 
     .half-white {
         color: var(--white-color);
+        font-family: raleway, sans-serif;
+        
     }
+        .address {
+            font-size: 14px;
+
+        }
 
     .address .location {
         color: var(--white-color);
+        font-style: normal;
+       
         
         line-height: 1.71;
         text-align: left;
@@ -224,8 +238,12 @@ ul {
 
     .address .contact {
         color: var(--under-contact-color);
+        font-size: 14px;
+
         line-height: 1.71;
-        text-align: left;
+        
+        font-style: normal;
+       
         
     }
 
@@ -233,8 +251,10 @@ ul {
     .address .contact:focus {
         color: var(--hover-color);
         
+        font-size: 14px;
         line-height: 1.71;
-            text-align: left;
+        font-style: normal;
+            
             
 
     }
@@ -245,19 +265,22 @@ ul {
 
 
     /*portfolio-css*/
+    .hero-port{
+        background-color: var(--primary-background-color);
+    }
 
      
-    .works{
-        color: var(--primary-background-color)
-    }
+    
     .filt{
         color: var(--secondly-text-color);
         background-color: var(--third-section-color);
-        font-family: roboto;
+        font-family: roboto, sans-serif;
         font-weight: 500;
-        font-size: 16;
+        font-size: 16px;
         line-height: 1.62;
-        letter-spacing: -0.030em;
+        letter-spacing: 0.03em;
+        vertical-align: top;
+        fill:solid var(--secondly-text-color);
     }
     .filt:hover,
     .filt:focus{
@@ -265,9 +288,10 @@ ul {
         background-color: var(--hover-color);
         font-family: roboto;
             font-weight: 500;
-            font-size: 16;
+            font-size: 16px;
             line-height: 1.62;
-            letter-spacing: -0.030em;
+            letter-spacing: 0.03em;
+            text-align:center;
     }
     
     .port-img{
@@ -279,7 +303,7 @@ ul {
         font-weight: 700;
             font-size: 18px;
             line-height: 2;
-            letter-spacing: -0.060em;
+            letter-spacing: 0.06em;
             
             
 
